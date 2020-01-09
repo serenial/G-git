@@ -1,0 +1,3 @@
+[submodule "cpp/G-git-libgit2"]
+	path = cpp/G-git-libgit2
+	url = https://github.com/serenial/G-git-libgit2.git
