@@ -31,5 +31,14 @@
 *.out
 *.app
 
+#Visual C++ cache files
+ipch/
+*.apps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
 # Trash Directory
 trash/
