@@ -11,6 +11,7 @@
 #endif
 
 #include "extcode.h"
+#include "git2.h"
 
 // This class is exported from the G-git.dll
 class GGIT_API CGgit {
@@ -22,3 +23,7 @@ public:
 extern GGIT_API int nGgit;
 
 GGIT_API int fnGgit(void);
+
+void SendEvent(LVUserEventRef *);
+
+static int do_clone(const char, const char *);

@@ -39,6 +39,11 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+*VC.db
 
 # Trash Directory
 trash/
+
+#Builds
+[Bb]uild/
+[Dd]ebug/
